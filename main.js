@@ -95,7 +95,7 @@ function exp(event) {
        if (workYears > 10 && workYears < 30) {
          percents.innerHTML = '20%';
        }
-       if (workYears > 30) {
+       if (workYears > 29) {
          percents.innerHTML = '30%';
        }
        else if (workYears < 0) {
